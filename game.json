@@ -1,0 +1,264 @@
+{
+  "passages": [
+    {
+      "text": "You live in a world where everyone has superpowers. You graduate from a school that turns out superheroes. What will you do?\n[[Become a hero]]",
+      "links": [
+        {
+          "name": "Become a hero",
+          "link": "Become a hero",
+          "pid": "2"
+        }
+      ],
+      "name": "Beginning",
+      "pid": "1",
+      "position": {
+        "x": "388",
+        "y": "0"
+      }
+    },
+    {
+      "text": "You go on your first patrol and see a crowd gathering. A man is about to fall off of a building. What do you do? \n[[Try to save the man yourself]]",
+      "links": [
+        {
+          "name": "Try to save the man yourself",
+          "link": "Try to save the man yourself",
+          "pid": "3"
+        }
+      ],
+      "name": "Become a hero",
+      "pid": "2",
+      "position": {
+        "x": "385",
+        "y": "118"
+      }
+    },
+    {
+      "text": "You end up severely injuring the man because you can't fully control your powers. One person notices you can't control them and offers to help you learn. Do you accept his offer? \n[[Accept his offer]]\n",
+      "links": [
+        {
+          "name": "Accept his offer",
+          "link": "Accept his offer",
+          "pid": "4"
+        }
+      ],
+      "name": "Try to save the man yourself",
+      "pid": "3",
+      "position": {
+        "x": "392",
+        "y": "259"
+      }
+    },
+    {
+      "text": "You follow him to his headquarters. He says you must fight your opponent as he gives you advice to help you control your power. Do you continue? \n[[Accept the offer]]\n[[Decline the offer]]",
+      "links": [
+        {
+          "name": "Accept the offer",
+          "link": "Accept the offer",
+          "pid": "6"
+        },
+        {
+          "name": "Decline the offer",
+          "link": "Decline the offer",
+          "pid": "5"
+        }
+      ],
+      "name": "Accept his offer",
+      "pid": "4",
+      "position": {
+        "x": "396",
+        "y": "406"
+      }
+    },
+    {
+      "text": "You decline his offer. You come home to find an empty house. when your parents should be home. You notice a note.\n\n[[Read the note]]",
+      "links": [
+        {
+          "name": "Read the note",
+          "link": "Read the note",
+          "pid": "7"
+        }
+      ],
+      "name": "Decline the offer",
+      "pid": "5",
+      "position": {
+        "x": "520",
+        "y": "535"
+      }
+    },
+    {
+      "text": "You fight your opponent in a room where he gives you advice to control your power. You feel more confident. You are ready to make up for your mistakes and become a hero. The man asks if you will join his organization. Do you accept?\n\n[[Accept]]\n[[Decline]]",
+      "links": [
+        {
+          "name": "Accept",
+          "link": "Accept",
+          "pid": "8"
+        },
+        {
+          "name": "Decline",
+          "link": "Decline",
+          "pid": "9"
+        }
+      ],
+      "name": "Accept the offer",
+      "pid": "6",
+      "position": {
+        "x": "303",
+        "y": "537"
+      }
+    },
+    {
+      "text": "You learn from the note that the man was a drug smugggler. He saw potential in you and wanted you to become a member of his organization. But because you refused you are now a liability. Your parents have been killed and you are next. You feel a presence behind you and a metal object touch the back of your head. \n\n-GAME OVER-",
+      "name": "Read the note",
+      "pid": "7",
+      "position": {
+        "x": "546",
+        "y": "681"
+      }
+    },
+    {
+      "text": "You join the organization to bring peace to the world. Your boss tells you there is another organization led by a man who has fought them for years trying to take them down.Your first job is to track him down and report back to your boss.  You eventually find him but he notices you. He tells you what you're doing is wrong. Do you fight or run? \n\n[[Fight]]\n[[Run]]",
+      "links": [
+        {
+          "name": "Fight",
+          "link": "Fight",
+          "pid": "10"
+        },
+        {
+          "name": "Run",
+          "link": "Run",
+          "pid": "11"
+        }
+      ],
+      "name": "Accept",
+      "pid": "8",
+      "position": {
+        "x": "201",
+        "y": "689"
+      }
+    },
+    {
+      "text": "The man stares at you regretfully. He says you had potential. He says that he is a drug smuggler and needed your powers to move his product. You try to fight your way out and get away but the boss overpowers you easily. You die. \n-GAME OVER-",
+      "name": "Decline",
+      "pid": "9",
+      "position": {
+        "x": "395",
+        "y": "689"
+      }
+    },
+    {
+      "text": "You try to fight but you die in battle. \n\n\n-GAME OVER-",
+      "name": "Fight",
+      "pid": "10",
+      "position": {
+        "x": "91",
+        "y": "851"
+      }
+    },
+    {
+      "text": "You escape the man but not before he gives you a message for your boss. He is waiting. You report to your boss. He prepares for combat. He says if he does not return you will lead the organization. Do you let him go alone?\n\n[[Let him go alone]]\n[[Go with him]]",
+      "links": [
+        {
+          "name": "Let him go alone",
+          "link": "Let him go alone",
+          "pid": "12"
+        },
+        {
+          "name": "Go with him",
+          "link": "Go with him",
+          "pid": "13"
+        }
+      ],
+      "name": "Run",
+      "pid": "11",
+      "position": {
+        "x": "311",
+        "y": "842"
+      }
+    },
+    {
+      "text": "You let the boss go alone. He returns later saying that he has defeated the man and now the organization can begin helping the world. He tasks you with taking down the remnants of the opposing forces. \n\n[[Do it]]\n",
+      "links": [
+        {
+          "name": "Do it",
+          "link": "Do it",
+          "pid": "14"
+        }
+      ],
+      "name": "Let him go alone",
+      "pid": "12",
+      "position": {
+        "x": "230",
+        "y": "994"
+      }
+    },
+    {
+      "text": "You go with your boss to fight the man. The man states what you're doing is wrong. Your boss tells him to be quiet and rushes him. The man counters and your boss dies. \n[[Run away]]\n[[Avenge your boss]]",
+      "links": [
+        {
+          "name": "Run away",
+          "link": "Run away",
+          "pid": "15"
+        },
+        {
+          "name": "Avenge your boss",
+          "link": "Avenge your boss",
+          "pid": "16"
+        }
+      ],
+      "name": "Go with him",
+      "pid": "13",
+      "position": {
+        "x": "426",
+        "y": "994"
+      }
+    },
+    {
+      "text": "You track down the last man of of the opposing forces. You look down on him as he begs to be spared. You question yourself. But there's no turning back. You finish the job for your boss. \n\n[[Return to your boss]]",
+      "links": [
+        {
+          "name": "Return to your boss",
+          "link": "Return to your boss",
+          "pid": "17"
+        }
+      ],
+      "name": "Do it",
+      "pid": "14",
+      "position": {
+        "x": "235",
+        "y": "1153"
+      }
+    },
+    {
+      "text": "You go back and lead the organization your boss entrusted to you. You learn that your boss was a drug lord who was pushing drugs into the community. The heroes that have been trying to stop him are the ones who killed him. To inherit his legacy you continue his work. \n-GAME OVER-",
+      "name": "Run away",
+      "pid": "15",
+      "position": {
+        "x": "348",
+        "y": "1150"
+      }
+    },
+    {
+      "text": "You try to fight the man but you die in battle. \n\n-GAME OVER-",
+      "name": "Avenge your boss",
+      "pid": "16",
+      "position": {
+        "x": "519",
+        "y": "1146"
+      }
+    },
+    {
+      "text": "You learn that your boss is a villain whose main goal is to flood the streets with drugs and the opposing forces were the heroes who were trying to stop your boss. You who set out to become a hero have become the villain. \n\n-GAME OVER-",
+      "name": "Return to your boss",
+      "pid": "17",
+      "position": {
+        "x": "229",
+        "y": "1310"
+      }
+    }
+  ],
+  "name": "Project 1",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "E434D674-D5C6-4376-82AA-E74EEECCE684"
+}
